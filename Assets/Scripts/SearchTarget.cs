@@ -20,6 +20,7 @@ public class SearchTarget : Agent
     public override void OnEpisodeBegin()
     {
         rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
 
         Vector3 agentPos = Vector3.zero;
         Vector3 targetPos = Vector3.zero;
@@ -65,26 +66,27 @@ public class SearchTarget : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        Debug.Log("Action received: " + actions);
-        int action = actions.DiscreteActions[0];
-
-        switch (action)
+        // Get continuous actions for movement and rotation
+        float moveAmount = actions.ContinuousActions[0]; // -1 to 1
+        float turnAmount = actions.ContinuousActions[1]; // -1 to 1
+        
+        // Apply movement (forward/backward)
+        if (Mathf.Abs(moveAmount) > 0.05f) // Small deadzone
         {
-            case 0: // Do nothing
-                break;
-            case 1: // Move forward
-                rb.MovePosition(transform.position + transform.forward * moveSpeed * Time.fixedDeltaTime);
-                break;
-            case 2: // Turn left
-                transform.Rotate(Vector3.up, -turnSpeed * Time.fixedDeltaTime);
-                break;
-            case 3: // Turn right
-                transform.Rotate(Vector3.up, turnSpeed * Time.fixedDeltaTime);
-                break;
+            rb.MovePosition(transform.position + transform.forward * moveAmount * moveSpeed * Time.fixedDeltaTime);
+        }
+        
+        // Apply rotation (left/right)
+        if (Mathf.Abs(turnAmount) > 0.05f) // Small deadzone
+        {
+            transform.Rotate(Vector3.up, turnAmount * turnSpeed * Time.fixedDeltaTime);
         }
 
         // Small time penalty to encourage efficiency
         AddReward(-0.001f);
+        
+        // Optional: Debug log the actions being taken
+        Debug.Log($"Actions - Move: {moveAmount:F2}, Turn: {turnAmount:F2}");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -106,24 +108,34 @@ public class SearchTarget : Agent
 
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-        var discreteActionsOut = actionsOut.DiscreteActions;
-
-        discreteActionsOut[0] = 0; // default: no action
-
-        if (Input.GetKey(KeyCode.Z))
+        var continuousActionsOut = actionsOut.ContinuousActions;
+        
+        // Default to no movement
+        continuousActionsOut[0] = 0f; // Forward/backward
+        continuousActionsOut[1] = 0f; // Turn
+        
+        // Forward/backward movement
+        if (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
-            discreteActionsOut[0] = 1; // Move forward
-            Debug.Log("Z key (forward) held");
+            continuousActionsOut[0] = 1.0f; // Full forward
+            Debug.Log("Forward input detected");
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
-            discreteActionsOut[0] = 2; // Turn left
-            Debug.Log("Q key (left) held");
+            continuousActionsOut[0] = -1.0f; // Full backward
+            Debug.Log("Backward input detected");
         }
-        else if (Input.GetKey(KeyCode.D))
+        
+        // Turning left/right
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.LeftArrow))
         {
-            discreteActionsOut[0] = 3; // Turn right
-            Debug.Log("D key (right) held");
+            continuousActionsOut[1] = -1.0f; // Full left
+            Debug.Log("Left turn input detected");
+        }
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            continuousActionsOut[1] = 1.0f; // Full right
+            Debug.Log("Right turn input detected");
         }
     }
 }
