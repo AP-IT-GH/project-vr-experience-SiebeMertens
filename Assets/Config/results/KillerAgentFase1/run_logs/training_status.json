@@ -1,0 +1,47 @@
+{
+    "KillerAgent": {
+        "checkpoints": [
+            {
+                "steps": 19798,
+                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-19798.onnx",
+                "reward": null,
+                "creation_time": 1747079901.7733507,
+                "auxillary_file_paths": [
+                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-19798.pt"
+                ]
+            },
+            {
+                "steps": 50086,
+                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-50086.onnx",
+                "reward": null,
+                "creation_time": 1747080408.990834,
+                "auxillary_file_paths": [
+                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-50086.pt"
+                ]
+            },
+            {
+                "steps": 250034,
+                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250034.onnx",
+                "reward": null,
+                "creation_time": 1747081408.223594,
+                "auxillary_file_paths": [
+                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250034.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 250034,
+            "file_path": "results\\KillerAgentFase1\\KillerAgent.onnx",
+            "reward": null,
+            "creation_time": 1747081408.223594,
+            "auxillary_file_paths": [
+                "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250034.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

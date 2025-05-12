@@ -102,7 +102,7 @@ public class SearchTarget : Agent
     {
         if (collision.collider.CompareTag("Wall"))
         {
-            AddReward(-0.1f);
+            AddReward(-0.01f);
         }
     }
 
@@ -139,3 +139,7 @@ public class SearchTarget : Agent
         }
     }
 }
+
+// cd C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\EscapeOfDeath\Assets\Config
+// mlagents-learn config.yml --run-id=KillerAgentFase1 --force
+
