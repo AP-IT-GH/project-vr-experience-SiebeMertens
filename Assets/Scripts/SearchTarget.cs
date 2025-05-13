@@ -93,7 +93,7 @@ public class SearchTarget : Agent
     {
         if (other.CompareTag("Target"))
         {
-            AddReward(1.0f);
+            AddReward(2.0f);
             EndEpisode();
         }
     }

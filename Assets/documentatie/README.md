@@ -17,3 +17,6 @@ Op deze manier zullen we snel en overzichtilijk naar een goed eindresultaat werk
 In fase 1 zetten we een kleine omgeving op met 4 kamers, in 1 van deze kamers zal een random target worden geplaats en in een andere de agent ( killer ). Het doel van deze fase is om de agent te leren opzoek gaan naar het doelwit in dit dan te vangen. Het detecteren van het doelwit gebeurd op basis van rays, die rekening houden met "Walls" en "Targets"
 
 ![Training area van de agent](image.png)
+
+Na het trainen van onze agent hebben we de volgende resultaten verkregen. Dit geeft weer dat het gelukt is om de agent te trainen en hij zijn taken goed uitvoerd. Met dit resultaat is onze eerste fase van dit project afgerond. 
+![Tensorboard Fase1 ( episode length and cummelative reward)](image-1.png)

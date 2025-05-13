@@ -2,40 +2,31 @@
     "KillerAgent": {
         "checkpoints": [
             {
-                "steps": 19798,
-                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-19798.onnx",
-                "reward": null,
-                "creation_time": 1747079901.7733507,
+                "steps": 250033,
+                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250033.onnx",
+                "reward": 0.7430000305175781,
+                "creation_time": 1747140850.2134106,
                 "auxillary_file_paths": [
-                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-19798.pt"
+                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250033.pt"
                 ]
             },
             {
-                "steps": 50086,
-                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-50086.onnx",
-                "reward": null,
-                "creation_time": 1747080408.990834,
+                "steps": 400027,
+                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-400027.onnx",
+                "reward": 1.4139999936927448,
+                "creation_time": 1747141344.5049064,
                 "auxillary_file_paths": [
-                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-50086.pt"
-                ]
-            },
-            {
-                "steps": 250034,
-                "file_path": "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250034.onnx",
-                "reward": null,
-                "creation_time": 1747081408.223594,
-                "auxillary_file_paths": [
-                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250034.pt"
+                    "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-400027.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 250034,
+            "steps": 400027,
             "file_path": "results\\KillerAgentFase1\\KillerAgent.onnx",
-            "reward": null,
-            "creation_time": 1747081408.223594,
+            "reward": 1.4139999936927448,
+            "creation_time": 1747141344.5049064,
             "auxillary_file_paths": [
-                "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-250034.pt"
+                "results\\KillerAgentFase1\\KillerAgent\\KillerAgent-400027.pt"
             ]
         }
     },
