@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1748244881",
+        "python_version": "3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Ngoma\\anaconda3\\envs\\training\\Scripts\\mlagents-learn config.yml --run-id=newAgent --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1748244886"
+    },
+    "total": 5.4756070999999995,
+    "count": 1,
+    "self": 0.006749499999998854,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1297164999999998,
+            "count": 1,
+            "self": 0.1297164999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 5.339141100000001,
+            "count": 1,
+            "self": 0.00011370000000088254,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 5.3390123,
+                    "count": 1,
+                    "self": 5.3390123
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5099999999712566e-05,
+                    "count": 1,
+                    "self": 1.5099999999712566e-05
+                }
+            }
+        }
+    }
+}

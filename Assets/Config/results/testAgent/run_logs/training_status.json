@@ -1,0 +1,29 @@
+{
+    "KillerAgent": {
+        "checkpoints": [
+            {
+                "steps": 35254,
+                "file_path": "results\\testAgent\\KillerAgent\\KillerAgent-35254.onnx",
+                "reward": null,
+                "creation_time": 1747747851.2722416,
+                "auxillary_file_paths": [
+                    "results\\testAgent\\KillerAgent\\KillerAgent-35254.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 35254,
+            "file_path": "results\\testAgent\\KillerAgent.onnx",
+            "reward": null,
+            "creation_time": 1747747851.2722416,
+            "auxillary_file_paths": [
+                "results\\testAgent\\KillerAgent\\KillerAgent-35254.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
