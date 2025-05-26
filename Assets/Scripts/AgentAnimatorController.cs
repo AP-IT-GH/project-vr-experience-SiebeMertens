@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class AgentAnimatorController : MonoBehaviour
 {
-public Transform target;
-    public float triggerDistance = 1.6f;
+    public Transform target;
+    public float visionAngle = 60f; // Field of view angle in degrees
+    public float visionDistance = 3f; // How far the agent can see
+    public float attackDistance = 1.5f; // Distance required to trigger attack animation
+    public LayerMask obstacleLayer; // Set this in inspector to detect obstacles
     private Animator animator;
     private bool canTriggerAnimation = true;
     private float cooldownTimer = 0f;
@@ -47,16 +50,60 @@ public Transform target;
         // Check if we can trigger the animation
         if (canTriggerAnimation && target != null && animator != null)
         {
-            float distance = Vector3.Distance(transform.position, target.position);
+            float distanceToTarget = Vector3.Distance(transform.position, target.position);
             
-            if (distance < triggerDistance)
+            // Only trigger if both conditions are met: visible AND within attack distance
+            if (IsTargetVisible() && distanceToTarget <= attackDistance)
             {
                 animator.SetTrigger("HitTarget");
                 canTriggerAnimation = false;
                 cooldownTimer = animationCooldown;
-                Debug.Log("Animation triggered: HitTarget");
+                Debug.Log($"Animation triggered: HitTarget - Target is visible and within attack range ({distanceToTarget:F2} units)");
             }
         }
+    }
+    
+    // Check if target is visible to the agent
+    private bool IsTargetVisible()
+    {
+        if (target == null) return false;
+        
+        // Direction to target
+        Vector3 directionToTarget = (target.position - transform.position).normalized;
+        
+        // Get distance to target
+        float distanceToTarget = Vector3.Distance(transform.position, target.position);
+        
+        // Check if target is too far for vision
+        if (distanceToTarget > visionDistance)
+        {
+            return false;
+        }
+        
+        // Check if target is within field of view
+        float angle = Vector3.Angle(transform.forward, directionToTarget);
+        if (angle > visionAngle / 2f)
+        {
+            // Draw debug ray in red to show target is outside vision angle
+            Debug.DrawRay(transform.position, directionToTarget * distanceToTarget, Color.red, 0.1f);
+            return false;
+        }
+        
+        // Check for obstacles between agent and target
+        if (Physics.Raycast(transform.position, directionToTarget, out RaycastHit hit, distanceToTarget, obstacleLayer))
+        {
+            // Something is blocking the view
+            if (hit.transform != target)
+            {
+                // Draw debug ray in yellow to show vision is blocked
+                Debug.DrawRay(transform.position, directionToTarget * hit.distance, Color.yellow, 0.1f);
+                return false;
+            }
+        }
+        
+        // Target is visible - draw debug ray in green
+        Debug.DrawRay(transform.position, directionToTarget * distanceToTarget, Color.green, 0.1f);
+        return true;
     }
     
     // Public method to reset the animation state (call this from SearchTarget.OnEpisodeBegin)

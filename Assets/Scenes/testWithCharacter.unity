@@ -9039,6 +9039,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2312984975406210847, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350343824138806350, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368659175223932991, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048394384581346052, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086660813479759096, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360330357150627602, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5898957662238554518, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
       propertyPath: m_Name
       value: TrainingArea (10)
@@ -9082,6 +9106,18 @@ PrefabInstance:
     - target: {fileID: 6147794010699326460, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449552527643584477, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7170749512737450685, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167360162854208280, guid: a6ffe8b6fea3bea489d2a50c72837372, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
