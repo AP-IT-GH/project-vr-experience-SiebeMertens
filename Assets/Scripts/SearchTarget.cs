@@ -12,6 +12,8 @@ public class SearchTarget : Agent
     public float minSpawnDistance = 1.5f;
     private Rigidbody rb;
 
+
+
     public override void Initialize()
     {
         rb = GetComponent<Rigidbody>();
@@ -27,6 +29,16 @@ public class SearchTarget : Agent
 
         float planeSizeX = plane.localScale.x * 5f; // Unity Plane is 10x10 units by default
         float planeSizeZ = plane.localScale.z * 5f;
+
+        AgentAnimatorController animController = GetComponent<AgentAnimatorController>();
+        // check for animation 
+        if (animController != null)
+        {
+            animController.ResetAnimationState();
+        }
+        
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
 
         // Sample positions until they're far enough apart
         int attempts = 0;
@@ -46,6 +58,7 @@ public class SearchTarget : Agent
 
             attempts++;
             if (attempts > 50) break; // safety net
+            
         }
         while (Vector3.Distance(agentPos, targetPos) < minSpawnDistance);
 
@@ -139,4 +152,3 @@ public class SearchTarget : Agent
         }
     }
 }
-
