@@ -10,6 +10,9 @@ public class SearchTarget : Agent
     public float turnSpeed = 150f;
     public Transform plane;
     public float minSpawnDistance = 1.5f;
+    public bool useFixedPositions = false; // Toggle for fixed positions
+    public Vector3 fixedAgentPosition = new Vector3(-4, 0.5f, -4); // Fixed agent position
+    public Vector3 fixedTargetPosition = new Vector3(4, 0.5f, 4); // Fixed target position
     private Rigidbody rb;
 
 
@@ -24,11 +27,43 @@ public class SearchTarget : Agent
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
-        Vector3 agentPos = Vector3.zero;
-        Vector3 targetPos = Vector3.zero;
+        Vector3 agentPos;
+        Vector3 targetPos;
 
-        float planeSizeX = plane.localScale.x * 5f; // Unity Plane is 10x10 units by default
-        float planeSizeZ = plane.localScale.z * 5f;
+        if (useFixedPositions)
+        {
+            // Use fixed positions
+            agentPos = fixedAgentPosition;
+            targetPos = fixedTargetPosition;
+        }
+        else
+        {
+            // Use random positions
+            float planeSizeX = plane.localScale.x * 5f;
+            float planeSizeZ = plane.localScale.z * 5f;
+
+            // Sample positions until they're far enough apart
+            int attempts = 0;
+            do
+            {
+                agentPos = new Vector3(
+                    Random.Range(-planeSizeX, planeSizeX),
+                    0.5f,
+                    Random.Range(-planeSizeZ, planeSizeZ)
+                );
+
+                targetPos = new Vector3(
+                    Random.Range(-planeSizeX, planeSizeX),
+                    0.5f,
+                    Random.Range(-planeSizeZ, planeSizeZ)
+                );
+
+                attempts++;
+                if (attempts > 50) break; // safety net
+                
+            }
+            while (Vector3.Distance(agentPos, targetPos) < minSpawnDistance);
+        }
 
         AgentAnimatorController animController = GetComponent<AgentAnimatorController>();
         // check for animation 
@@ -36,35 +71,12 @@ public class SearchTarget : Agent
         {
             animController.ResetAnimationState();
         }
-        
-        rb.linearVelocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
-
-        // Sample positions until they're far enough apart
-        int attempts = 0;
-        do
-        {
-            agentPos = new Vector3(
-                Random.Range(-planeSizeX, planeSizeX),
-                0.5f,
-                Random.Range(-planeSizeZ, planeSizeZ)
-            );
-
-            targetPos = new Vector3(
-                Random.Range(-planeSizeX, planeSizeX),
-                0.5f,
-                Random.Range(-planeSizeZ, planeSizeZ)
-            );
-
-            attempts++;
-            if (attempts > 50) break; // safety net
-            
-        }
-        while (Vector3.Distance(agentPos, targetPos) < minSpawnDistance);
 
         // Apply positions
         transform.localPosition = agentPos;
-        transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+        transform.rotation = useFixedPositions ? 
+            Quaternion.Euler(0, 45, 0) : // Fixed rotation when using fixed positions
+            Quaternion.Euler(0, Random.Range(0, 360), 0); // Random rotation otherwise
 
         if (target != null)
         {
