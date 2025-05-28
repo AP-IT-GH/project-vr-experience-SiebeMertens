@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ac280d2e7d331d43bb2ef80d99cd65e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20496
+  packageName: Hammer
+  packageVersion: initial
+  assetPath: Assets/Hammer/Materials/hammer_material.mat
+  uploadId: 9658

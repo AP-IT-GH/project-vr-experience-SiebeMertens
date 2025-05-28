@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b3373950dc50ee4b94e5731f725de85
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20496
+  packageName: Hammer
+  packageVersion: initial
+  assetPath: Assets/Hammer/Model/hammer.prefab
+  uploadId: 9658

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f38a272f2a3ec934c8edd46fd6c87a55
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135636
+  packageName: Sticky Notes - In-editor comments and notes
+  packageVersion: 1.0.2
+  assetPath: Assets/MHLab/StickyNotes/Scenes/SampleScene.unity
+  uploadId: 691507
