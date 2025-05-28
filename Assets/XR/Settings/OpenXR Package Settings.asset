@@ -61,7 +61,6 @@ MonoBehaviour:
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
@@ -325,7 +324,6 @@ MonoBehaviour:
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
@@ -509,8 +507,6 @@ MonoBehaviour:
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
-  optimizeMultiviewRenderRegions: 0
-  spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &4111787439996310493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,29 +913,28 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 7073910286884503288}
-  - {fileID: 8756558677404905267}
-  - {fileID: 4853432479538735483}
-  - {fileID: 3591016321176641394}
   - {fileID: -8476952931280464187}
-  - {fileID: -4586007407499792131}
   - {fileID: 4111787439996310493}
-  - {fileID: 964865429526660312}
-  - {fileID: 5095492147356152355}
-  - {fileID: 8031994046578083465}
-  - {fileID: 452162512563825025}
-  - {fileID: 457076091226775028}
-  - {fileID: 8265281078614011135}
-  - {fileID: -5717807116752362875}
-  - {fileID: -5702325275845376624}
-  - {fileID: -1742091238405002831}
+  - {fileID: -4586007407499792131}
   - {fileID: 7746280106582060608}
+  - {fileID: 964865429526660312}
+  - {fileID: 452162512563825025}
+  - {fileID: 8031994046578083465}
+  - {fileID: 3591016321176641394}
+  - {fileID: -5717807116752362875}
+  - {fileID: 8265281078614011135}
+  - {fileID: 5095492147356152355}
+  - {fileID: 4853432479538735483}
+  - {fileID: 8756558677404905267}
+  - {fileID: 457076091226775028}
+  - {fileID: -5702325275845376624}
+  - {fileID: 7073910286884503288}
+  - {fileID: -1742091238405002831}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
