@@ -46,6 +46,7 @@
      <Compile Include="Assets\Packages\Laterns and candles\scripts\CameraFacing.cs" />
      <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNote.cs" />
      <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNotesManager.cs" />
+     <Compile Include="Assets\Scripts\PlayDoorSounds.cs" />
      <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNoteAdvanced.cs" />
      <Compile Include="Assets\Packages\Laterns and candles\scripts\ExtendedFlycam.cs" />
      <Compile Include="Assets\Scripts\VerdwijnScript.cs" />
