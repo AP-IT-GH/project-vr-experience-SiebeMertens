@@ -9,6 +9,7 @@ public class AgentAnimatorController : MonoBehaviour
     public LayerMask obstacleLayer; // Set this in inspector to detect obstacles
     private Animator animator;
     private bool canTriggerAnimation = true;
+    public AudioSource chaseMusic;
     private float cooldownTimer = 0f;
     public float animationCooldown = 2.0f; // Time before animation can be triggered again
     
@@ -66,7 +67,9 @@ public class AgentAnimatorController : MonoBehaviour
     // Check if target is visible to the agent
     private bool IsTargetVisible()
     {
-        if (target == null) return false;
+        if (target == null) {if(chaseMusic.isPlaying){
+            chaseMusic.Stop();
+            } return false;}
         
         // Direction to target
         Vector3 directionToTarget = (target.position - transform.position).normalized;
@@ -77,6 +80,9 @@ public class AgentAnimatorController : MonoBehaviour
         // Check if target is too far for vision
         if (distanceToTarget > visionDistance)
         {
+            if(chaseMusic.isPlaying){
+            chaseMusic.Stop();
+            }
             return false;
         }
         
@@ -86,6 +92,9 @@ public class AgentAnimatorController : MonoBehaviour
         {
             // Draw debug ray in red to show target is outside vision angle
             Debug.DrawRay(transform.position, directionToTarget * distanceToTarget, Color.red, 0.1f);
+            if(chaseMusic.isPlaying){
+            chaseMusic.Stop();
+            }
             return false;
         }
         
@@ -97,12 +106,18 @@ public class AgentAnimatorController : MonoBehaviour
             {
                 // Draw debug ray in yellow to show vision is blocked
                 Debug.DrawRay(transform.position, directionToTarget * hit.distance, Color.yellow, 0.1f);
+                if(chaseMusic.isPlaying){
+                chaseMusic.Stop();
+                }
                 return false;
             }
         }
         
-        // Target is visible - draw debug ray in green
+        // Target is visible - draw debug ray in green and start chase music
         Debug.DrawRay(transform.position, directionToTarget * distanceToTarget, Color.green, 0.1f);
+        if(chaseMusic.isPlaying){
+        chaseMusic.Stop();
+        }
         return true;
     }
     
