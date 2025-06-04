@@ -1859,6 +1859,10 @@ PrefabInstance:
       value: VR_Player
       objectReference: {fileID: 0}
     - target: {fileID: 3087597617511541286, guid: e0ad4dd6205bd2b45af4a38bf4cd6af0, type: 3}
+      propertyPath: m_Center.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087597617511541286, guid: e0ad4dd6205bd2b45af4a38bf4cd6af0, type: 3}
       propertyPath: m_SkinWidth
       value: 0.0001
       objectReference: {fileID: 0}
