@@ -48,7 +48,7 @@ public class SearchTarget : Agent
             {
                 agentPos = new Vector3(
                     Random.Range(-planeSizeX, planeSizeX),
-                    0.5f,
+                    0f,
                     Random.Range(-planeSizeZ, planeSizeZ)
                 );
 

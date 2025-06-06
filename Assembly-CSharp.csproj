@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B988F1F8-4707-0B6C-CCD9-1FCAF4D359A4}</ProjectGuid>
+    <ProjectGuid>{f8f188b9-0747-6c0b-ccd9-1fcaf4d359a4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -21,17 +21,8 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_6000_0_28;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_6000_0_36;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;PLATFORM_EXTENDS_VULKAN_PIPELINE_CACHE;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_HAS_ADDITIONAL_API_CHECKS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -50,27 +41,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\VRPlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\AgentAnimatorController.cs" />
+     <Compile Include="Assets\CombinationPadLock\Script\PadLockPassword.cs" />
+     <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNote.cs" />
+     <Compile Include="Assets\Scripts\RespawnMLAgent.cs" />
+     <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNotesManager.cs" />
+     <Compile Include="Assets\Scripts\VerdwijnScript.cs" />
+     <Compile Include="Assets\Scripts\DoctorLaugh.cs" />
+     <Compile Include="Assets\Scripts\FollowChildObject.cs" />
+     <Compile Include="Assets\Scripts\NextScene.cs" />
      <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNoteTag.cs" />
      <Compile Include="Assets\Scripts\OpenDoors.cs" />
      <Compile Include="Assets\Scripts\ObejctiveManager.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\VRPlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\AgentAnimatorController.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\CombinationPadLock\Script\MoveRuller.cs" />
-     <Compile Include="Assets\CombinationPadLock\Script\PadLockPassword.cs" />
+     <Compile Include="Assets\Scripts\Respawn.cs" />
      <Compile Include="Assets\Packages\Laterns and candles\scripts\CameraFacing.cs" />
-     <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNote.cs" />
-     <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNotesManager.cs" />
      <Compile Include="Assets\Scripts\PlayDoorSounds.cs" />
      <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNoteAdvanced.cs" />
      <Compile Include="Assets\Packages\Laterns and candles\scripts\ExtendedFlycam.cs" />
-     <Compile Include="Assets\Scripts\VerdwijnScript.cs" />
      <Compile Include="Assets\CombinationPadLock\Script\PadLockEmissionColor.cs" />
-     <Compile Include="Assets\Scripts\DoctorLaugh.cs" />
      <Compile Include="Assets\Scripts\SearchTarget.cs" />
      <Compile Include="Assets\CombinationPadLock\Script\TimeBlinking.cs" />
-     <Compile Include="Assets\Scripts\FollowChildObject.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
@@ -436,25 +430,28 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\System.IO.Abstractions.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf_Packed">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\Google.Protobuf_Packed.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\Google.Protobuf_Packed.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.visualscripting@b0b3dc17a39f\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\PackageCache\com.unity.ml-agents@2b4ded88494d\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -829,226 +826,258 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents.CommunicatorObjects">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ML-Agents.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ML-Agents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sentis.iOSBLAS">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.iOSBLAS.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.iOSBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sentis">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Common">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sentis.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Analytics.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ML-Agents.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.ML-Agents.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sentis.MacBLAS">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.MacBLAS.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.MacBLAS.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sentis.ONNX">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.ONNX.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Sentis.ONNX.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-        <HintPath>C:\Users\Salih\Documents\AP\2de_Jaar_EAICT Bachelor\VR experience\ExamenVR\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+        <HintPath>C:\Users\Siebe\OneDrive - AP Hogeschool Antwerpen\VR Experience\project-vr-experience-SiebeMertens\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{CBBEF74F-34CB-7371-AC87-BE14A0C17131}</Project>
+      <Project>{4ff7becb-cb34-7173-ac87-be14a0c17131}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
-      <Project>{91203D5E-8376-96C6-3232-914E2B5A4120}</Project>
+      <Project>{5e3d2091-7683-c696-3232-914e2b5a4120}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{74092E4C-F9A7-FAAD-84D4-C517CF93545F}</Project>
+      <Project>{4c2e0974-a7f9-adfa-84d4-c517cf93545f}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
