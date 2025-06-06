@@ -1,22 +1,18 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    // [SerializeField] private string nextSceneName = "TestWithCharacter"; // Name of the next scene to load
+
     public void StartGame()
     {
-        // Laadt de volgende scene op basis van Build Index + 1
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-        // OF als je een specifieke naam wil gebruiken:
-        // SceneManager.LoadScene("NaamVanDeVolgendeScene");
+        // Load scene by name
+        SceneManager.LoadScene("TestWithCharacter");
     }
-
     public void QuitGame()
     {
         Debug.Log("Game stopped");
         Application.Quit();
-
     }
 }
