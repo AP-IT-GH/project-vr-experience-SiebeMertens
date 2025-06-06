@@ -9,6 +9,8 @@ public class MainMenu : MonoBehaviour
     {
         // Load scene by name
         SceneManager.LoadScene("TestWithCharacter");
+
+
     }
     public void QuitGame()
     {
