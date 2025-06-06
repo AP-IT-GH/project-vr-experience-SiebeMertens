@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,5 +11,12 @@ public class MainMenu : MonoBehaviour
 
         // OF als je een specifieke naam wil gebruiken:
         // SceneManager.LoadScene("NaamVanDeVolgendeScene");
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Game stopped");
+        Application.Quit();
+
     }
 }
