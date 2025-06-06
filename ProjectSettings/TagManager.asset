@@ -8,7 +8,6 @@ TagManager:
   - Target
   - Key
   - Hammer
-  - MLAgent
   layers:
   - Default
   - TransparentFX

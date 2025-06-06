@@ -6,11 +6,8 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        // Laadt de volgende scene op basis van Build Index + 1
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("testWithCharacter");
 
-        // OF als je een specifieke naam wil gebruiken:
-        // SceneManager.LoadScene("NaamVanDeVolgendeScene");
     }
 
     public void QuitGame()

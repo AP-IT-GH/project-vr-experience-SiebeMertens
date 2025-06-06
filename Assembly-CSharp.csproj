@@ -64,6 +64,7 @@
     <Compile Include="Assets\VRPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\AgentAnimatorController.cs" />
     <Compile Include="Assets\Extras\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\TextShowingScript.cs" />
     <Compile Include="Assets\Keypad\Scripts\SlidingDoor.cs" />
     <Compile Include="Assets\Keypad\Scripts\KeypadButton.cs" />
     <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNote.cs" />
