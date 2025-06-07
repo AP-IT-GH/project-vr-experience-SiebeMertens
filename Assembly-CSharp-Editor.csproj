@@ -44,8 +44,6 @@
      <Compile Include="Assets\Extras\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <Compile Include="Assets\Extras\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
-     <Compile Include="Assets\MHLab\StickyNotes\Scripts\Editor\StickyNoteEditor.cs" />
-     <Compile Include="Assets\MHLab\StickyNotes\Scripts\Editor\StickyNotesManagerWindow.cs" />
      <Compile Include="Assets\Extras\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Extras\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
     <Reference Include="UnityEngine">

@@ -14,10 +14,10 @@ public class VerdwijnScript : MonoBehaviour
             gameObject.SetActive(false);
 
             // Activeer het andere object als het is toegewezen
-            if (objectToActivate != null)
-            {
-                objectToActivate.SetActive(true);
-            }
+            // if (objectToActivate != null)
+            // {
+            //     objectToActivate.SetActive(true);
+            // }
         }
     }
 }
