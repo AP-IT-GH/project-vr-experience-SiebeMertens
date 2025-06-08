@@ -15,11 +15,7 @@ public class ObejctiveManager : MonoBehaviour
 
     void Update()
     {
-        if (!doorOpened &&
-            !lockIncomplete.activeSelf &&
-            lockComplete.activeSelf &&
-            !palletIncomplete.activeSelf &&
-            palletComplete.activeSelf)
+        if (!doorOpened && !lockIncomplete.activeSelf && !palletIncomplete.activeSelf)
         {
             OpenDoors();
         }

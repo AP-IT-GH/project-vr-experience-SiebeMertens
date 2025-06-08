@@ -110,8 +110,6 @@ public class SearchTarget : Agent
         // Small time penalty to encourage efficiency
         AddReward(-0.001f);
         
-        // Optional: Debug log the actions being taken
-        Debug.Log($"Actions - Move: {moveAmount:F2}, Turn: {turnAmount:F2}");
     }
 
     private void OnTriggerEnter(Collider other)
