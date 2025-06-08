@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/testWithCharacter.unity
     guid: e9a76ddc2b3911f49b71088f58b777c0
   - enabled: 1
-    path: Assets/Scenes/LoseOutroCutScene.unity
+    path: Assets/Scenes/LoseOutroScene.unity
     guid: 3938b113e7ee1a14698b5a286dcff0f7
   - enabled: 1
     path: Assets/Scenes/WinOutroScene.unity

@@ -25,6 +25,6 @@ public class RespawnMLAgent : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
         }
 
-        Debug.Log("VR object respawned.");
+        Debug.Log("MLagent object respawned.");
     }
 }

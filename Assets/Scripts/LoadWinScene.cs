@@ -9,7 +9,8 @@ public class LoadWinScene : MonoBehaviour
     {
         if (other.CompareTag(targetTag))
         {
-            SceneManager.LoadScene("OutroWinScene");
+            Debug.Log("Target entered trigger");
+            SceneManager.LoadScene("WinOutroScene");
         }
     }
 }

@@ -60,6 +60,7 @@
      <Compile Include="Assets\Extras\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Scripts\ObejctiveManager.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scripts\FollowVrCamera.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\quit.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />

@@ -6,16 +6,19 @@ using Unity.MLAgents.Sensors;
 public class SearchTarget : Agent
 {
     public Transform target;
+
+    // public Transform trackableObject;
+    
     public float moveSpeed = 2f;
     public float turnSpeed = 150f;
     public Transform plane;
     public float minSpawnDistance = 1.5f;
-    public bool useFixedPositions = false; // Toggle for fixed positions
-    public Vector3 fixedAgentPosition = new Vector3(-4, 0.5f, -4); // Fixed agent position
-    public Vector3 fixedTargetPosition = new Vector3(4, 0.5f, 4); // Fixed target position
+    
+    // Fixed spawn positions
+    private Vector3 agentSpawnPosition = new Vector3(1, 0f, -1);
+    private Vector3 targetSpawnPosition = new Vector3(-1, 0.5f, 7);
+    
     private Rigidbody rb;
-
-
 
     public override void Initialize()
     {
@@ -24,63 +27,24 @@ public class SearchTarget : Agent
 
     public override void OnEpisodeBegin()
     {
+        // Reset physics
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
-        Vector3 agentPos;
-        Vector3 targetPos;
-
-        if (useFixedPositions)
-        {
-            // Use fixed positions
-            agentPos = fixedAgentPosition;
-            targetPos = fixedTargetPosition;
-        }
-        else
-        {
-            // Use random positions
-            float planeSizeX = plane.localScale.x * 5f;
-            float planeSizeZ = plane.localScale.z * 5f;
-
-            // Sample positions until they're far enough apart
-            int attempts = 0;
-            do
-            {
-                agentPos = new Vector3(
-                    Random.Range(-planeSizeX, planeSizeX),
-                    0f,
-                    Random.Range(-planeSizeZ, planeSizeZ)
-                );
-
-                targetPos = new Vector3(
-                    Random.Range(-planeSizeX, planeSizeX),
-                    0.5f,
-                    Random.Range(-planeSizeZ, planeSizeZ)
-                );
-
-                attempts++;
-                if (attempts > 50) break; // safety net
-                
-            }
-            while (Vector3.Distance(agentPos, targetPos) < minSpawnDistance);
-        }
-
+        // Reset animation if applicable
         AgentAnimatorController animController = GetComponent<AgentAnimatorController>();
-        // check for animation 
         if (animController != null)
         {
             animController.ResetAnimationState();
         }
 
-        // Apply positions
-        transform.localPosition = agentPos;
-        transform.rotation = useFixedPositions ? 
-            Quaternion.Euler(0, 45, 0) : // Fixed rotation when using fixed positions
-            Quaternion.Euler(0, Random.Range(0, 360), 0); // Random rotation otherwise
+        // Apply static positions
+        transform.localPosition = agentSpawnPosition;
 
+        // Position target if available
         if (target != null)
         {
-            target.localPosition = targetPos;
+            target.localPosition = targetSpawnPosition;
         }
     }
 
@@ -161,4 +125,4 @@ public class SearchTarget : Agent
             Debug.Log("Right turn input detected");
         }
     }
-}
+}   
